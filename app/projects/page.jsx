@@ -126,11 +126,11 @@ export default function Page() {
 					</div>
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
-							My Projects
+							Our Projects
 						</h1>
 						<Hr />
 						<p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-							List of my projects that I have done and{" "}
+							List of our projects that we have done and{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
 								currently working on.
@@ -155,7 +155,7 @@ export default function Page() {
 					<div className="flex justify-center items-center flex-col my-5 self-start ">
 						<div className="bg-gray-700 w-28 h-1 rounded-full mb-3 self-start"></div>
 						<div className="bg-gray-700 w-28 h-1 rounded-full translate-x-12"></div>
-						<h1 className="text-3xl font-bold mt-3">Hightlight</h1>
+						<h1 className="text-3xl font-bold mt-3">Highlight</h1>
 					</div>
 				</div>
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
@@ -246,21 +246,14 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							React Chat WebApp
+							HUT PT Asuransi Indonesia 8th
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							React Chat WebApp is a chat application that I
-							created using ReactJS, Firebase, and TailwindCSS.
-							This is my second project using ReactJS and
-							Firebase. I created this project to learn more about
-							ReactJS and Firebase. I also use TailwindCSS to make
-							the UI more beautiful and responsive. In this
-							project i learn many things about react and
-							firebase, such as react hooks, react router,
-							firebase authentication, firebase firestore, and
-							firebase storage. You can see the source code of
-							this project on my github account or preview the
-							project by clicking the button below.
+						August 22 2022 is 
+						PT Asuransi ASEI Indonesia 8th birthday,
+						and was held in the city of Yogjakarta.
+						The event was attended by all employees 
+						from the head office and branch offices.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">

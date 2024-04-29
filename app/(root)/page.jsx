@@ -64,7 +64,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										TEA | Tim Engagement Asei
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -75,6 +75,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										Full Stack Developer
+										Full Stack ASEI Event Organizer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -84,12 +85,14 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										A junior fullstack developer who
-										currently focused on Web Development.
-										Other than that, I also interested in
-										UX/UI Design, Mobile and AI Development.
-										I love to learn new things and always
-										open to new opportunities.
+										A team of engagement who
+										currently focused on ASEI Event.
+										Other than that, We also interested in
+										Team bonding, Gathering  and Community.
+										We love to the process of strengthening relationships between team members.
+										By participating in fun activities together, 
+										employees can begin to understand each other on a more personal level. 
+										As a result, they build trust and improve communication.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -101,11 +104,11 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link href={"/docs/cv.pdf"}>
-												Download CV
+												Our Event
 											</Link>
 										</Button>
 										<Button variation="secondary">
-											<a href="#contact">Contact Me</a>
+											<a href="#contact">Gallery</a>
 										</Button>
 									</motion.div>
 								</motion.div>
@@ -169,7 +172,7 @@ const MyPage = () => {
 											delay: 0.1,
 											type: "spring",
 										}}>
-										About Me
+										About Us
 									</motion.h1>
 									<Hr />
 									<motion.p
@@ -180,8 +183,8 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										A brief introduction about me and my
-										interest.
+										A brief introduction about us and our
+										activities.
 									</motion.p>
 									<motion.div
 										initial={{ y: 40, opacity: 0 }}
@@ -238,7 +241,7 @@ const MyPage = () => {
 											delay: 0.1,
 											type: "spring",
 										}}>
-										My Projects
+										Our Activities
 									</motion.h1>
 									<Hr />
 									<motion.p
@@ -249,7 +252,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										This is some of my projects that I have
+										This is some of our projects that We have
 										done{" "}
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 											{" "}
@@ -322,7 +325,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Feel free to contact me if you have any{" "}
+										Feel free to contact us if you have any{" "}
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 											questions or just want to say hi.
 										</span>
@@ -335,14 +338,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+										<a href="mailto:tea@asei.co.id?subject=Hello&body=Hello TEA,">
+											tea@asei.co.id
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:tea@asei.co.id?subject=Hello&body=Hello TEA,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}

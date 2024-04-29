@@ -50,14 +50,14 @@ export default function Page() {
 					</div>
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
-							About Me
+							About US
 						</h1>
 						<Hr />
 						<p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">
-							A brief introduction about me and{" "}
+							A brief introduction about us and{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								my interest.
+								our goals.
 							</span>
 						</p>
 						<motion.div
@@ -79,7 +79,7 @@ export default function Page() {
 					<div className="flex justify-center items-center flex-col my-5 self-start ">
 						<div className="bg-gray-700 w-28 h-1 rounded-full mb-3 self-start"></div>
 						<div className="bg-gray-700 w-28 h-1 rounded-full translate-x-12"></div>
-						<h1 className="text-3xl font-bold mt-3">Who Am I?</h1>
+						<h1 className="text-3xl font-bold mt-3">Who are we?</h1>
 					</div>
 				</div>
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
@@ -169,42 +169,34 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Alvalen Shafelbilyunazra
+							TEA | Tim Engagement Asei
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+							Hey there, We&rsquo;r TEA | Tim Engagement Asei, a
 							<span className="text-black font-medium">
 								{" "}
-								tech enthusiast
+								Event Division
 							</span>{" "}
 							and
 							<span className="text-black font-medium">
 								{" "}
-								aspiring Web Developer.
+								Event organization.
 							</span>{" "}
-							Originating from Pasuruan, East Java, Indonesia,
-							I&rsquo;m currently embarking on a fascinating
+							We&rsquo;r currently embarking on a fascinating
 							journey at{" "}
 							<span className="text-black font-medium">
-								Universitas Negeri Malang,
+							PT Asuransi ASEI Indonesia.,
 							</span>{" "}
-							where I&rsquo;m pursuing my degree in{" "}
+							where We&rsquo;r hold events at{" "}
 							<span className="text-black font-medium">
-								Informatics Engineering.
+								PT Asuransi ASEI Indonesia.
 							</span>{" "}
-							My passion for technology and coding knows no
-							bounds. Beyond the world of coding, I find myself
-							deeply immersed in the realms of design, Game
-							Development, and the fascinating universe of AI. I
-							believe that in today&rsquo;s fast-paced digital
-							landscape, being a
+							Our vision and mission is to establish friendship between all
 							<span className="text-black font-medium">
 								{" "}
-								lifelong learner
+								employees
 							</span>{" "}
-							is not just a choice, but a necessity. Let&rsquo;s
-							connect and explore this ever-evolving world of tech
-							together!
+							and strengthen brotherhood in all divisions and branches
 						</p>
 						<Card />
 					</motion.div>
@@ -225,7 +217,7 @@ export default function Page() {
 
 							type: "spring",
 						}}>
-						<h2 className="text-2xl md:text-xl font-normal mb-3 md:tracking-[.3rem] lg:tracking-[.5rem] uppercase ">
+						{/* <h2 className="text-2xl md:text-xl font-normal mb-3 md:tracking-[.3rem] lg:tracking-[.5rem] uppercase ">
 							Language & Framework
 						</h2>
 						<p className="text-gray-500 text-center tracking-widest md:px-5">
@@ -280,7 +272,7 @@ export default function Page() {
 							<span className="text-black font-medium">
 								Python
 							</span>
-						</p>
+						</p> */}
 					</motion.div>
 					<motion.div
 						className="flex justify-start items-center flex-col mb-5 "
@@ -297,7 +289,7 @@ export default function Page() {
 
 							type: "spring",
 						}}>
-						<h2 className="text-2xl md:text-xl font-normal mb-3 md:tracking-[.3rem] lg:tracking-[.5rem] uppercase">
+						{/* <h2 className="text-2xl md:text-xl font-normal mb-3 md:tracking-[.3rem] lg:tracking-[.5rem] uppercase">
 							Tools
 						</h2>
 						<p className="text-gray-500 text-center tracking-wider md:px-">
@@ -328,7 +320,7 @@ export default function Page() {
 								Adobe After Effect
 							</span>{" "}
 							|{" "}
-						</p>
+						</p> */}
 					</motion.div>
 				</div>
 				<div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
@@ -378,7 +370,7 @@ export default function Page() {
 
 								type: "spring",
 							}}>
-							Education &amp; Experience
+							{/* Events &amp; Gathering */}
 						</motion.h1>
 					</div>
 				</div>
@@ -398,7 +390,7 @@ export default function Page() {
 
 							type: "spring",
 						}}>
-						<h2 className="text-2xl font-bold mb-3">
+						{/* <h2 className="text-2xl font-bold mb-3">
 							Education | Universitas Negeri Malang
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
@@ -416,7 +408,7 @@ export default function Page() {
 							delved into various facets of computer science,
 							honing my skills in web development, programming,
 							and problem-solving.
-						</p>
+						</p> */}
 					</motion.div>
 					<motion.div
 						className="flex justify-center items-start flex-col mb-5 "
@@ -433,7 +425,7 @@ export default function Page() {
 
 							type: "spring",
 						}}>
-						<h2 className="text-2xl font-bold mb-3">
+						{/* <h2 className="text-2xl font-bold mb-3">
 							Experience | Freelance Web Developer
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
@@ -450,7 +442,7 @@ export default function Page() {
 							independently, I ensure that each project I
 							undertake meets high-quality standards and fulfills
 							the unique needs of clients.
-						</p>
+						</p> */}
 					</motion.div>
 				</div>
 			</main>
