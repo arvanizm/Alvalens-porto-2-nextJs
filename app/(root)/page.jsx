@@ -74,7 +74,6 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
 										Full Stack ASEI Event Organizer
 									</motion.h1>
 									<motion.p
@@ -252,8 +251,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										This is some of our projects that We have
-										done{" "}
+										This is some of our projects that We have done{" "}
 										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 											{" "}
 											and currently working on.
