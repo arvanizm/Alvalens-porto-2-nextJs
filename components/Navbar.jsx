@@ -2,6 +2,8 @@
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+// import Image from 'next/image'
+import Image from "next/legacy/image";
 
 const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 	const [isMobile, setIsMobile] = useState(false);
@@ -200,9 +202,18 @@ const Navbar = () => {
 						className={`text-2xl ml-2 md:ml-0 transition-colors ease duration-500 ${
 							isNavOpen ? "text-white" : ""
 						}`}>
+							
 						TIM ENGAGEMENT ASEI
-					</h1>
+					</h1>					
 				</div>
+
+				<Image
+					src="/public/logotea.png"
+					width={500}
+					height={500}
+					alt="Picture of the author"
+					/>
+				
 				<div className="flex flex-row items-center">
 					<button
 						className="burger button flex flex-col justify-center items-center space-y-1.5 "
